@@ -6,11 +6,10 @@ int main(void)
 {
     int lcount;
     int i = 0;
-    char **finalout;
     scanf ("%d", &lcount);
     while (lcount--)
     {
-        char *text;
+        char text[100];
         scanf("%s", text);
         i = strlen(text);
         if (i > 10)
